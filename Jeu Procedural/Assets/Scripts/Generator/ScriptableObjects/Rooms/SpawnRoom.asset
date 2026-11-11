@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a5929308090bd47a3871199accadad, type: 3}
+  m_Name: SpawnRoom
+  m_EditorClassIdentifier: Assembly-CSharp::RoomStyleSO
+  _styleId: Normal
+  _gizmoColor: {r: 0.16567405, g: 0.5, b: 0.12971699, a: 1}
+  _minWidth: 10
+  _maxWidth: 12
+  _minHeight: 10
+  _maxHeight: 12
+  _roomFloorPrefab: {fileID: 632500719587609815, guid: b9fc4eb95a2a08046b1985a17e13bba0, type: 3}
+  _wallPrefab: {fileID: 632500719587609815, guid: f86a5d6a91e30af4b9fe1bbc10403ff6, type: 3}
+  _minEnemies: 0
+  _maxEnemies: 0
+  _minEnemySpacing: 0
+  _enemyPrefabs: []
+  _minProps: 0
+  _maxProps: 0
+  _minPropsSpacing: 0
+  _propsPrefabs: []
+  _weight: 1
+  _tileScale: {x: 1, y: 1, z: 1}
+  _floorPrefabBaseSize: {x: 1, y: 1}
+  _corridorFloorPrefabBaseSize: {x: 1, y: 1}

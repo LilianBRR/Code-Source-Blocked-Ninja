@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a5929308090bd47a3871199accadad, type: 3}
+  m_Name: EndRoom
+  m_EditorClassIdentifier: Assembly-CSharp::RoomStyleSO
+  _styleId: Normal
+  _gizmoColor: {r: 0.16567405, g: 0.5, b: 0.12971699, a: 1}
+  _minWidth: 25
+  _maxWidth: 35
+  _minHeight: 25
+  _maxHeight: 35
+  _roomFloorPrefab: {fileID: 632500719587609815, guid: e12eeea9b7674374c8f70fd943a01569, type: 3}
+  _wallPrefab: {fileID: 632500719587609815, guid: f86a5d6a91e30af4b9fe1bbc10403ff6, type: 3}
+  _minEnemies: 0
+  _maxEnemies: 0
+  _minEnemySpacing: 0
+  _enemyPrefabs: []
+  _minProps: 30
+  _maxProps: 50
+  _minPropsSpacing: 1
+  _propsPrefabs:
+  - {fileID: 3850096813298397349, guid: 870de557c755bf441b6bbcb3b137ef29, type: 3}
+  - {fileID: 1327264723717295395, guid: 63aa7112b22347c44b7233c8a9aa3986, type: 3}
+  _weight: 1
+  _tileScale: {x: 1, y: 1, z: 1}
+  _floorPrefabBaseSize: {x: 1, y: 1}
+  _corridorFloorPrefabBaseSize: {x: 1, y: 1}

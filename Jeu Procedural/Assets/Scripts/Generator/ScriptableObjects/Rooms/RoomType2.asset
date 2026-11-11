@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a5929308090bd47a3871199accadad, type: 3}
+  m_Name: RoomType2
+  m_EditorClassIdentifier: Assembly-CSharp::RoomStyleSO
+  _styleId: Normal
+  _gizmoColor: {r: 0.17412782, g: 0.46591052, b: 0.8584906, a: 1}
+  _minWidth: 25
+  _maxWidth: 30
+  _minHeight: 25
+  _maxHeight: 30
+  _roomFloorPrefab: {fileID: 632500719587609815, guid: e12eeea9b7674374c8f70fd943a01569, type: 3}
+  _wallPrefab: {fileID: 632500719587609815, guid: e12eeea9b7674374c8f70fd943a01569, type: 3}
+  _minEnemies: 3
+  _maxEnemies: 5
+  _minEnemySpacing: 4
+  _enemyPrefabs:
+  - {fileID: 7753726248644008553, guid: 705383450c6ed454998e5507b9c49d18, type: 3}
+  - {fileID: 3610131635591629999, guid: 1fdd0ad93bf95e84cac6a5fb8b36e8c9, type: 3}
+  _minProps: 4
+  _maxProps: 6
+  _minPropsSpacing: 5.5
+  _propsPrefabs:
+  - {fileID: 4467234094446588165, guid: 6ce7991fffe4d5248b67ccd8c63f69da, type: 3}
+  - {fileID: 3502392005912367488, guid: 4e3c3990422b48945a432b9ac033934a, type: 3}
+  - {fileID: 4505303556408137136, guid: 266e35902c857314193957131b931435, type: 3}
+  - {fileID: 8827709028344523898, guid: e9f4b5cebc2db114fbc8ef7a3adca2fd, type: 3}
+  - {fileID: 200371424766542790, guid: e17afa59c9437fd43b5fb3823d56968e, type: 3}
+  - {fileID: 2887107731189183715, guid: 59c7279d5108e8544aee489721eb5d16, type: 3}
+  - {fileID: 6364828107775118655, guid: f60bb9bf49176fa4d98daa65b04845a9, type: 3}
+  _weight: 1
+  _tileScale: {x: 1, y: 1, z: 1}
+  _floorPrefabBaseSize: {x: 1, y: 1}
+  _corridorFloorPrefabBaseSize: {x: 1, y: 1}

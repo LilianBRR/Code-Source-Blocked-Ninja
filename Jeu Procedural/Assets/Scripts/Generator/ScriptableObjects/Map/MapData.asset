@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cbc95d15ae0f24c8fde7de494d272e, type: 3}
+  m_Name: MapData
+  m_EditorClassIdentifier: Assembly-CSharp::MapDataSO
+  _styleId: Map
+  _gizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  _minWidth: 200
+  _maxWidth: 210
+  _minLength: 200
+  _maxLength: 210
+  _maxRooms: 40
+  _minRooms: 2
+  _padding: 6
+  _maxTileSize: 5
+  _corridorFloorPrefab: {fileID: 632500719587609815, guid: b9fc4eb95a2a08046b1985a17e13bba0, type: 3}
+  _openingPrefab: {fileID: 7869986588290299699, guid: c59684ffe607f434ebc5c5ca6994de27, type: 3}
+  _corridorSize: 5
+  _maxCorridorLenght: 6
+  _wallPrefab: {fileID: 632500719587609815, guid: f86a5d6a91e30af4b9fe1bbc10403ff6, type: 3}
+  _wallWidth: 2
+  _wallHeight: 6
+  _maxWallSize: 10
+  _seed: -392168141
+  _randomSeed: 1
+  _position: {x: 0, y: 0, z: 0}
+  _minNodeSize: {x: 40, y: 40}
+  _maxDepth: 4
